@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # ★ 2. 데이터 읽기
-df = pd.read_csv("/content/drive/MyDrive/데이터분석/data/analysis_result.csv")
+df = pd.read_csv("analysis_result.csv")
 df["측정시각"] = pd.to_datetime(df["측정시각"])
 df["목표시각"] = pd.to_datetime(df["목표시각"])
 
